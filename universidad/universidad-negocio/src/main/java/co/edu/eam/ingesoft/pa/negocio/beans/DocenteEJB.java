@@ -21,7 +21,6 @@ public class DocenteEJB {
 	
 	@PersistenceContext
 	private EntityManager em;
-	private String msj;
 	
 	
 	/**
