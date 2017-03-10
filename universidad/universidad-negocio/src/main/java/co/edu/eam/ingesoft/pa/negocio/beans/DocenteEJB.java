@@ -21,7 +21,7 @@ public class DocenteEJB {
 	
 	@PersistenceContext
 	private EntityManager em;
-	
+	private String msj;
 	
 	/**
 	 * MEtodo para crear un docente...
