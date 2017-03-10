@@ -58,5 +58,9 @@ public class DocenteEJB {
 	public List<Docente> listar(){
 		return em.createNamedQuery(Docente.LISTAR).getResultList();
 	}
+	
+	public void prueba(){
+		
+	}
 
 }
